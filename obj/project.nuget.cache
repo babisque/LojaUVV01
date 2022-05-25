@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "1W+3WnIutcIIq6Yfbc6KNqmjKUewUguMPIdNMjOr4ckfqpYFm9lwC0ZA+lAC6WPm1LkJvdsuOo3XQvTXrv+cwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rodri\\Documents\\Code\\UVV\\OIOIIO\\LojaUVV\\LojaUVV.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rodri\\.nuget\\packages\\materialskin\\0.2.1\\materialskin.0.2.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MaterialSkin 0.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MaterialSkin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
