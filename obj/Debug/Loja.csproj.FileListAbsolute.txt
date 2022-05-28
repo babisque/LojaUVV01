@@ -1,0 +1,15 @@
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\bin\Debug\Loja.exe.config
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\bin\Debug\Loja.exe
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\bin\Debug\Loja.pdb
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\bin\Debug\MaterialSkin.dll
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.csproj.AssemblyReference.cache
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.csproj.SuggestedBindingRedirects.cache
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.Properties.Resources.resources
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.csproj.GenerateResource.cache
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.csproj.CopyComplete
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.exe
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.pdb
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.Form1.resources
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.Telas.TelaEntrada.resources
+C:\Users\rodri\Documents\Code\UVV\OIOIIO\Loja\obj\Debug\Loja.Telas.ListaPedidos.resources

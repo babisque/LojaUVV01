@@ -4,19 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LojaUVV.App
+namespace Loja.App
 {
     public abstract class Funcionario
     {
-        protected Funcionario(string nome, string matricula)
+        public string Nome { get; set; }
+        public string Matricula { get; set; }
+        public string Senha { get; set; }
+
+        protected Funcionario(string nome, string matricula, string senha)
         {
             Nome = nome;
             Matricula = matricula;
+            Senha = senha;
         }
 
-        private string Nome { get; set; }
-        private string Matricula { get; set; }
-        
         public abstract decimal CalculaDesconto(decimal valorTotalCompra);
         
     }

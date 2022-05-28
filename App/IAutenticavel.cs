@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LojaUVV.App
+namespace Loja.App
 {
     public interface IAutenticavel
     {
-        public bool Autenticar(string senha);
-               
+        bool Autenticar(string senha);               
     }
 }

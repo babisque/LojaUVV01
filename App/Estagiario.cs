@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LojaUVV.App
+namespace Loja.App
 {
     internal class Estagiario : Funcionario, IAutenticavel
     {
-        public string Senha { get; private set; }
-
-        public Estagiario(string nome, string matricula, string senha) : base(nome, matricula)
+        public Estagiario(string nome, string matricula, string senha) : base(nome, matricula, senha)
         {
-            Senha = senha;
         }
                
 

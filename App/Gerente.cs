@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LojaUVV.App
+namespace Loja.App
 {
     internal class Gerente : Funcionario, IAutenticavel
     {
-        private string Senha { get; set; }
-        public Gerente(string nome, string matricula, string senha) : base(nome, matricula)
+        public Gerente(string nome, string matricula, string senha) : base(nome, matricula, senha)
         {
-            Senha = senha;
         }
 
         public bool Autenticar(string senha)
@@ -25,8 +23,5 @@ namespace LojaUVV.App
             return valorTotalCompra -= (valorTotalCompra*0.1m);
 
         }
-
-        
-
     }
 }

@@ -7,13 +7,13 @@ using Loja.App;
 
 namespace Loja.Repositorio
 {
-    internal class RepositorioPedidos
+    internal class RepositorioProdutosCarrinho
     {
-        public static List<Pedido> InicializadorPedido()
+        public static List<Produto> InicializadorProdutosCarrinho()
         {
-            List<Pedido> pedidos = new List<Pedido>();
+            List<Produto> produtos = new List<Produto>();
             {
-                return pedidos;
+                return produtos;
             }
         }
     }

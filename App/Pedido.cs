@@ -1,44 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Globalization;
 
-namespace LojaUVV.App
+namespace Loja.App
 {
     public class Pedido
     {
         public int Id { get; set; }
-        public Cliente Cliente { get; }
-        public string Produto { get; set; }
-        public int Quantidade { get; set; }
-        public DateTime DataPedido { get; set; }
-        public decimal ValorProduto { get; set; }
-        public string Descricao { get; set; }
+        public string Data { get; set; }
+        public Funcionario Funcionario { get; set; }
+        public ICollection<Produto> Produtos { get; set; }
         public decimal ValorTotal { get; set; }
 
-        public static int globalId;
-        
-        public Pedido(string produto, int quantidade, string dataPedido, decimal valorProduto, string descricao, Cliente cliente)
+        public Pedido(Funcionario funcionario, List<Produto> produtos, decimal valorTotal)
         {
-            Cliente = cliente;
-            Produto = produto;
-            Quantidade = quantidade;
             CultureInfo cultura = CultureInfo.CreateSpecificCulture("pt-BR");
-            DataPedido = DateTime.Parse(dataPedido, cultura);
-            ValorProduto = valorProduto;
-            Descricao = descricao;
-            ValorTotal = PrecoTotal(valorProduto, quantidade);
-            Id = Interlocked.Increment(ref globalId);
-
+            Data = DateTime.Now.ToString("dd/MM/yyyy", cultura);
+            Funcionario = funcionario;
+            Produtos = produtos;
+            ValorTotal = valorTotal;
         }
 
-        public override string ToString() => $"{Id}, {Produto}, {Quantidade}, {DataPedido}, {ValorProduto}, {Descricao}";
-
-        private decimal PrecoTotal(decimal valorProduto, int quantidade)
-        {
-            return valorProduto * quantidade;
-        }
+        public override string ToString() => $"{Data}, {Funcionario.Nome}, R$ {ValorTotal}";
     }
 }
